@@ -4,8 +4,8 @@ function solution(array) {
 
   if (array.length === 1) return array[0];
 
-  const obj = {};
-  const answer = [];
+  let obj = {};
+  let answer = [];
 
   array.forEach((n) => {
     obj[n] = ++obj[n] || 1;
