@@ -9,7 +9,6 @@ let arr = [];
 for (let i = 0; i <= n; i++) {
   arr.push(Number(input[i]));
 }
-vvvvvvvvvvvvvvvvvvvvvvvvvvvv;
 
 arr.sort(function (a, b) {
   return a - b;
